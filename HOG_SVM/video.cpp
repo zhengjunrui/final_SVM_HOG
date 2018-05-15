@@ -8,7 +8,7 @@ using namespace cv;
 using namespace std;
 
 //将视频转成帧的形式，方便进行对人物的截图标注
-void video2image(string video,string path) 
+void video2image(string video,string path,int N) 
 { 
     VideoCapture capture(video); 
     if(!capture.isOpened()) 
@@ -26,7 +26,7 @@ void video2image(string video,string path)
     { 
         capture>>frame; 
             //隔十帧截一次图
-            for(int i=0;i<10;i++)
+            for(int i=0;i<N;i++)
             {
                  capture>>frame;
             }

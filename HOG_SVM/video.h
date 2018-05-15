@@ -9,6 +9,6 @@
 using namespace cv;
 using namespace std;
 
-void video2image(string video,string path) ;
+void video2image(string video,string path,int N) ;
 
 #endif

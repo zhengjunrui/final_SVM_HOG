@@ -3,5 +3,7 @@
 
 void Pos_List();
 void Neg_List();
+void Neg_List_AfterFlip();
+void Pos_List_AfterFlip();
 
 #endif

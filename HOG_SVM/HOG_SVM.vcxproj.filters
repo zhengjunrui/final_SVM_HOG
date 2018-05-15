@@ -30,6 +30,12 @@
     <ClCompile Include="Detection.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Resize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamma.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="video.h">
@@ -42,6 +48,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Detection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamma.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -62,13 +62,17 @@
   <ItemGroup>
     <ClCompile Include="Create_List.cpp" />
     <ClCompile Include="Detection.cpp" />
+    <ClCompile Include="Gamma.cpp" />
     <ClCompile Include="main_program.cpp" />
+    <ClCompile Include="Resize.cpp" />
     <ClCompile Include="SetSVM.cpp" />
     <ClCompile Include="video.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Create_List.h" />
     <ClInclude Include="Detection.h" />
+    <ClInclude Include="Gamma.h" />
+    <ClInclude Include="Resize.h" />
     <ClInclude Include="SetSVM.h" />
     <ClInclude Include="video.h" />
   </ItemGroup>
